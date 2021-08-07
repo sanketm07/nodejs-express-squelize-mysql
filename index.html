@@ -1,0 +1,43 @@
+<html>
+   <head>
+      <title>Forms</title>
+   </head>
+   <body>
+      
+      <form action = "http://127.0.0.1:8081/tutorial" method="GET">
+         Tutorial: <input type = "text" name = "tutorial">  <br>
+         Description: <input type = "text" name = "description">    <br>
+         Published:<input type = "text" name = "published">
+         <input type = "submit" value = "Submit">
+      </form>
+
+     <form action = "http://127.0.0.1:8081/" method="POST">
+         Tutorial: <input type = "text" name = "tutorial">  <br>
+         Description: <input type = "text" name = "description">    <br>
+         Published:<input type = "text" name = "published">
+         <input type = "submit" value = "Submit">
+      </form>
+
+      <form action = "http://127.0.0.1:8081/customers" method="DELETE">
+         Tutorial: <input type = "text" name = "tutorial">  <br>
+         Description: <input type = "text" name = "description">    <br>
+         Published:<input type = "text" name = "published">
+         <input type = "submit" value = "Submit">
+      </form>
+
+      <form action = "http://127.0.0.1:8081/customers/:customerId" method="DELETE">
+         Tutorial: <input type = "text" name = "tutorial">  <br>
+         Description: <input type = "text" name = "description">    <br>
+         Published:<input type = "text" name = "published">
+         <input type = "submit" value = "Submit">
+      </form>
+
+      <form action = "http://127.0.0.1:8081/customers/:customerId" method="PUT">
+         Tutorial: <input type = "text" name = "tutorial">  <br>
+         Description: <input type = "text" name = "description">    <br>
+         Published:<input type = "text" name = "published">
+         <input type = "submit" value = "Submit">
+      </form>    
+      
+   </body>
+</html>
